@@ -1,28 +1,28 @@
 class Anchor < Formula
   desc "CLI for Anchor, a self-hosted secrets manager on Cloudflare"
   homepage "https://sotarak.github.io/anchor/"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/sotarak/anchor/releases/download/v0.2.0/anchor-darwin-arm64"
-      sha256 "e7ce8d17c0b8937acf5b98b1d5d3c39b079132a0b11b2de8d6d6533caa67fea0"
+      url "https://github.com/sotarak/anchor/releases/download/v0.3.0/anchor-darwin-arm64"
+      sha256 "8c3d65efb430500330c316490a4a1167e938fe12eaa0be786a9b40a97a1c8377"
     end
     on_intel do
-      url "https://github.com/sotarak/anchor/releases/download/v0.2.0/anchor-darwin-x64"
-      sha256 "8536f7b629bb545bee34953aaf01c2f72ce2efc1f182dab0632dab3f052f66c3"
+      url "https://github.com/sotarak/anchor/releases/download/v0.3.0/anchor-darwin-x64"
+      sha256 "a2b822dcce2da0df19d755a9d63180bd5a0a3bc663740e4914b05a6fe7092a0f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sotarak/anchor/releases/download/v0.2.0/anchor-linux-arm64"
-      sha256 "17ab88e8fecc68bfa0a4000a88f005477caabf666a456061e63f2248602a5d59"
+      url "https://github.com/sotarak/anchor/releases/download/v0.3.0/anchor-linux-arm64"
+      sha256 "70f6a698aa80b7ac42c8fa6b530e7ac23e081bb62a8032fb0558cdf65c37be58"
     end
     on_intel do
-      url "https://github.com/sotarak/anchor/releases/download/v0.2.0/anchor-linux-x64"
-      sha256 "6b4adab15f8a83311b1e2fce8a0f867881eaf9e5c3f6053e464a0940a82f3266"
+      url "https://github.com/sotarak/anchor/releases/download/v0.3.0/anchor-linux-x64"
+      sha256 "5cc9ca9bf050c19d2f3aee845468fc379c31626a836eb3f84b519d98a1330f4e"
     end
   end
 
